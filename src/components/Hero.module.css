@@ -1,4 +1,15 @@
 .hero {
     height: 100vh;
     background-color: var(--background-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-inner-layout {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
