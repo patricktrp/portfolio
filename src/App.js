@@ -1,6 +1,6 @@
-import Hero from "./Hero";
-import Navbar from "./Navbar";
-import Projects from "./Projects";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 function App() {
   return (
