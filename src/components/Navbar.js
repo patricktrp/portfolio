@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <nav className={styles["navbar"]}>
             <div className={styles["navbar-inner"]}>
-                <div>patrick.dev</div>
+                <span className={styles["navbar-inner-heading"]}>patrick.dev</span>
                 <div>
                     <button onClick={() => document.documentElement.setAttribute("data-theme", "light")}>light</button>
                     <button onClick={() => document.documentElement.setAttribute("data-theme", "dark")}>dark</button>
@@ -12,11 +12,11 @@ const Navbar = () => {
                 <ul className={styles["navbar-inner-list"]}>
                     <li>About</li>
                     <li>Projects</li>
-                    <li>Projects</li>
+                    <li>Random</li>
                     <li>Contact</li>
                 </ul>
             </div>
-        </nav>
+        </nav >
     );
 }
 

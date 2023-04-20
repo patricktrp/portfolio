@@ -12,10 +12,15 @@
 
 .navbar-inner {
     height: 100%;
-    width: 80%;
+    width: 85%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.navbar-inner-heading {
+    font-weight: 800;
+    font-size: 1.5rem;
 }
 
 .navbar-inner-list {
@@ -25,4 +30,7 @@
 
 .navbar-inner-list li {
     margin-right: .8vw;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 1.2rem;
 }
