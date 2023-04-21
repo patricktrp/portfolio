@@ -1,4 +1,5 @@
 import styles from './Navbar.module.css';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     return (
@@ -10,9 +11,9 @@ const Navbar = () => {
                     <button onClick={() => document.documentElement.setAttribute("data-theme", "dark")}>dark</button>
                 </div>
                 <ul className={styles["navbar-inner-list"]}>
-                    <li>About</li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li>Contact</li>
                 </ul>
             </div>

@@ -13,6 +13,12 @@
     flex-direction: column;
     margin-bottom: 200px;
 }
+.section-heading {
+    text-align: center;
+    font-weight: 300;
+    color: var(--font-color-primary);
+    font-size: 3rem;
+}
 
 .projects-card {
     width: 65%;
@@ -22,6 +28,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 25px;
     margin-bottom: 50px;
+    margin-top: 50px;
     min-height: 300px;
 }
 

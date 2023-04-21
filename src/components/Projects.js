@@ -8,7 +8,9 @@ import Sorting from '../sorting-visualizer.patricktreppmann.com_.png';
 const Projects = () => {
     return (
         <section className={styles["projects"]} id="projects">
+
             <div className={styles["projects-inner-layout"]}>
+                <h1 className={styles["section-heading"]}>Projects</h1>
 
                 <div className={styles["projects-card"]}>
                     <h1>Online Chess</h1>
@@ -35,6 +37,7 @@ const Projects = () => {
                 </div>
                 <div className={styles["projects-card"]}>
                     <h1>Sorting <span className={styles["project-heading-highlight"]}>Visualizer</span></h1>
+                    <p style={{ maxWidth: '50%' }}>This web application visualizes several sorting algorithms and how they operate on the data. Go and try it yourself!</p>
 
                     <img alt="" src={Sorting} className={styles["project-demo-img"]} />
                     <div className={styles["project-links"]}>
@@ -57,6 +60,7 @@ const Projects = () => {
 
                 <div className={styles["projects-card"]}>
                     <h1>Leetcode  <span className={styles["project-heading-highlight"]}>Clone</span></h1>
+                    <p style={{ maxWidth: '50%' }}>This is a clone of the popular website Leetcode.</p>
                     <div className={styles["project-links"]}>
                         <ul>
                             <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithub size="1.8em" title="view source code" /></a></li>
@@ -78,6 +82,7 @@ const Projects = () => {
                 </div>
                 <div className={styles["projects-card"]}>
                     <h1>Distributed <span className={styles["project-heading-highlight"]}>Cache</span></h1>
+                    <p style={{ maxWidth: '50%' }}>This is a lightweight version of a distributed caching system like Memcached. It supports storage and deletion of files on different nodes.</p>
                     <div className={styles["project-links"]}>
                         <ul>
                             <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithub size="1.8em" title="view source code" /></a></li>

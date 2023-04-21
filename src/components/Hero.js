@@ -6,7 +6,7 @@ import Waving from '../waving.png';
 
 const Hero = () => {
     return (
-        <section className={styles["hero"]}>
+        <section className={styles["hero"]} id="about">
             <div className={styles["hero-inner-layout"]}>
                 <div className={styles["hero-main"]}>
                     <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>

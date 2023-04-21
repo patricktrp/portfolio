@@ -1,9 +1,13 @@
 .experience {
-    /* height: 100vh; */
     background-color: var(--background-primary);
-    display: flex;
-    align-items: center;
+    display: flex; 
     justify-content: center;
+}
+
+.experience-inner-layout {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 60%;
 }
 
 .experience * {
@@ -12,11 +16,12 @@
     box-sizing: border-box;
     outline: none;
 }
- 
-  .experience h1 {
+
+.experience h1 {
     text-align: center;
     font-weight: 300;
-    color: #777;
+    color: var(--font-color-primary);
+    font-size: 3rem;
  }
  
 .experience h1 span {
