@@ -16,9 +16,9 @@ const Hero = () => {
                         </div>
                         <p>I'm a computer science student and full stack developer based in Aachen, Germany. 📍</p>
                         <ul className={styles["hero-main-icons"]}>
-                            <li><FaGithubSquare size="45" /></li>
-                            <li><FaLinkedin size="45" /></li>
-                            <li><MdEmail size="45" /></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithubSquare size="45" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrick-treppmann/"><FaLinkedin size="45" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="mailto:patrick.treppmann97@gmail.com"><MdEmail size="45" /></a></li>
                         </ul>
                     </div>
                     <div className={styles["hero-main-img-wrapper"]}>

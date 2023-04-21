@@ -67,6 +67,9 @@
 .project-links ul li {
     margin-right: 10px;
 }
+.project-links a {
+    color: var(--font-color-primary);
+}
 
 .project-tech {
     position: absolute;

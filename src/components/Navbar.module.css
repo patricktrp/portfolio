@@ -34,3 +34,9 @@
     font-weight: 300;
     font-size: 1.2rem;
 }
+
+.navbar-inner-list li a {
+    color: var(--font-color-primary);
+    text-decoration: none;
+    
+}

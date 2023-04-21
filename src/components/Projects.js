@@ -1,7 +1,7 @@
 import styles from './Projects.module.css';
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import { FaGithub, FaJava, FaAws, FaReact } from 'react-icons/fa';
-import { SiSpring } from 'react-icons/si';
+import { SiMongodb, SiSpring, SiGo, SiDocker, SiHtml5, SiCss3, SiReact } from 'react-icons/si';
 import Chess from '../chess.patricktreppmann.com_.png';
 import Sorting from '../sorting-visualizer.patricktreppmann.com_.png';
 
@@ -17,8 +17,8 @@ const Projects = () => {
                     <img alt="" src={Chess} className={styles["project-demo-img"]} />
                     <div className={styles["project-links"]}>
                         <ul>
-                            <li><FaGithub size="1.8em" /></li>
-                            <li><HiOutlineExternalLink size="1.8em" /></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp/chess"><FaGithub size="1.8em" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://chess.patricktreppmann.com"><HiOutlineExternalLink size="1.8em" /></a></li>
                         </ul>
                     </div>
 
@@ -39,19 +39,18 @@ const Projects = () => {
                     <img alt="" src={Sorting} className={styles["project-demo-img"]} />
                     <div className={styles["project-links"]}>
                         <ul>
-                            <li><FaGithub size="1.8em" /></li>
-                            <li><HiOutlineExternalLink size="1.8em" /></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithub size="1.8em" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><HiOutlineExternalLink size="1.8em" /></a></li>
                         </ul>
                     </div>
 
 
                     <div className={styles["project-tech"]}>
-                        <p>Java, Spring, React, AWS</p>
+                        <p>React, HTML, CSS</p>
                         <ul>
-                            <li><FaJava size="1.8em" /></li>
-                            <li><SiSpring size="1.8em" /></li>
-                            <li><FaReact size="1.8em" /></li>
-                            <li><FaAws size="1.8em" /></li>
+                            <li><SiReact size="1.8em" /></li>
+                            <li><SiHtml5 size="1.8em" /></li>
+                            <li><SiCss3 size="1.8em" /></li>
                         </ul>
                     </div>
                 </div>
@@ -60,18 +59,19 @@ const Projects = () => {
                     <h1>Leetcode  <span className={styles["project-heading-highlight"]}>Clone</span></h1>
                     <div className={styles["project-links"]}>
                         <ul>
-                            <li><FaGithub size="1.8em" /></li>
-                            <li><HiOutlineExternalLink size="1.8em" /></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithub size="1.8em" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><HiOutlineExternalLink size="1.8em" /></a></li>
                         </ul>
                     </div>
 
 
                     <div className={styles["project-tech"]}>
-                        <p>Java, Spring, React, AWS</p>
+                        <p>Java, Spring, React, MongoDB, AWS</p>
                         <ul>
                             <li><FaJava size="1.8em" /></li>
                             <li><SiSpring size="1.8em" /></li>
                             <li><FaReact size="1.8em" /></li>
+                            <li><SiMongodb size="1.8em" /></li>
                             <li><FaAws size="1.8em" /></li>
                         </ul>
                     </div>
@@ -80,8 +80,8 @@ const Projects = () => {
                     <h1>Distributed <span className={styles["project-heading-highlight"]}>Cache</span></h1>
                     <div className={styles["project-links"]}>
                         <ul>
-                            <li><FaGithub size="1.8em" /></li>
-                            <li><HiOutlineExternalLink size="1.8em" /></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithub size="1.8em" /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><HiOutlineExternalLink size="1.8em" /></a></li>
                         </ul>
                     </div>
 
@@ -89,10 +89,8 @@ const Projects = () => {
                     <div className={styles["project-tech"]}>
                         <p>Java, Spring, React, AWS</p>
                         <ul>
-                            <li><FaJava size="1.8em" /></li>
-                            <li><SiSpring size="1.8em" /></li>
-                            <li><FaReact size="1.8em" /></li>
-                            <li><FaAws size="1.8em" /></li>
+                            <li><SiGo size="1.8em" /></li>
+                            <li><SiDocker size="1.8em" /></li>
                         </ul>
                     </div>
                 </div>

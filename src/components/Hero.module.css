@@ -57,6 +57,10 @@
     margin-right: 1rem;
 }
 
+.hero-main-icons a {
+    color: var(--font-color-primary);
+}
+
 .hero-main-img-wrapper {
     display: flex;
     align-items: center;
