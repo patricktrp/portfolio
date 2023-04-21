@@ -40,6 +40,11 @@
     font-family: 'Mulish', sans-serif;
     font-size: larger;
 }
+.hero-main p a {
+    text-decoration: none;
+    color: inherit;
+    /* color: var(--font-color-primary) */
+}
 
 .hero-main-heading img {
     margin-left: 1rem;
