@@ -11,8 +11,8 @@ const Navbar = () => {
                 </div>
                 <ul className={styles["navbar-inner-list"]}>
                     <li>About</li>
-                    <li>Projects</li>
-                    <li>Random</li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li>Experience</li>
                     <li>Contact</li>
                 </ul>
             </div>
