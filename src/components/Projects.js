@@ -1,7 +1,7 @@
 import styles from './Projects.module.css';
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import { FaGithub, FaJava, FaAws, FaReact } from 'react-icons/fa';
-import { SiMongodb, SiSpring, SiGo, SiDocker, SiHtml5, SiCss3, SiReact, SiTypescript } from 'react-icons/si';
+import { SiMongodb, SiSpring, SiGo, SiDocker, SiHtml5, SiCss3, SiReact } from 'react-icons/si';
 import Chess from '../chess.patricktreppmann.com_.png';
 import Sorting from '../sorting-visualizer.patricktreppmann.com_.png';
 
@@ -24,12 +24,11 @@ const Projects = () => {
 
 
                     <div className={styles["project-tech"]}>
-                        <p>Java, Spring, React, TypeScript, AWS</p>
+                        <p>Java, Spring, React, AWS</p>
                         <ul>
                             <li><FaJava size="1.8em" /></li>
                             <li><SiSpring size="1.8em" /></li>
                             <li><FaReact size="1.8em" /></li>
-                            <li><SiTypescript size="1.8em" /></li>
                             <li><FaAws size="1.8em" /></li>
                         </ul>
                     </div>
