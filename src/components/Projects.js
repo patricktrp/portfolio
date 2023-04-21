@@ -12,7 +12,7 @@ const Projects = () => {
 
                 <div className={styles["projects-card"]}>
                     <h1>Online Chess</h1>
-                    <p style={{ maxWidth: '450px' }}>This is an online chess app where you can choose to play against your friend or you can try to beat my Artifical Intelligence!</p>
+                    <p style={{ maxWidth: '50%' }}>This is an online chess app where you can choose to play against your friend or you can try to beat my Artifical Intelligence!</p>
 
                     <img alt="" src={Chess} className={styles["project-demo-img"]} />
                     <div className={styles["project-links"]}>
