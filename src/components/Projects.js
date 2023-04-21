@@ -14,7 +14,7 @@ const Projects = () => {
                     <h1>Online Chess</h1>
                     <p style={{ maxWidth: '450px' }}>This is an online chess app where you can choose to play against your friend or you can try to beat my Artifical Intelligence!</p>
 
-                    <img src={Chess} className={styles["project-demo-img"]} />
+                    <img alt="" src={Chess} className={styles["project-demo-img"]} />
                     <div className={styles["project-links"]}>
                         <ul>
                             <li><FaGithub size="1.8em" /></li>
@@ -36,7 +36,7 @@ const Projects = () => {
                 <div className={styles["projects-card"]}>
                     <h1>Sorting <span className={styles["project-heading-highlight"]}>Visualizer</span></h1>
 
-                    <img src={Sorting} className={styles["project-demo-img"]} />
+                    <img alt="" src={Sorting} className={styles["project-demo-img"]} />
                     <div className={styles["project-links"]}>
                         <ul>
                             <li><FaGithub size="1.8em" /></li>
