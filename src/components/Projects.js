@@ -1,7 +1,7 @@
 import styles from './Projects.module.css';
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import { FaGithub, FaJava, FaAws, FaReact } from 'react-icons/fa';
-import { SiMongodb, SiSpring, SiGo, SiDocker, SiHtml5, SiCss3, SiReact } from 'react-icons/si';
+import { SiMongodb, SiSpring, SiGo, SiDocker, SiHtml5, SiCss3, SiReact, SiTypescript, SiAuth0 } from 'react-icons/si';
 import Chess from '../chess.patricktreppmann.com_.png';
 import Sorting from '../sorting-visualizer.patricktreppmann.com_.png';
 
@@ -60,7 +60,8 @@ const Projects = () => {
 
                 <div className={styles["projects-card"]}>
                     <h1>Leetcode  <span className={styles["project-heading-highlight"]}>Clone</span></h1>
-                    <p style={{ maxWidth: '50%' }}>This is a clone of the popular website Leetcode.</p>
+                    <p style={{ maxWidth: '50%' }}>This full-stack web application is a clone of the popular website Leetcode.</p>
+                    <p style={{ maxWidth: '50%' }}>It supports authentication, an integration of the stripe api for payments and most importantly a remote code execution engine.</p>
                     <div className={styles["project-links"]}>
                         <ul>
                             <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithub size="1.8em" title="view source code" /></a></li>
@@ -70,12 +71,14 @@ const Projects = () => {
 
 
                     <div className={styles["project-tech"]}>
-                        <p>Java, Spring, React, MongoDB, AWS</p>
+                        <p>Java, Spring, React, TypeScript, MongoDB, Auth0, AWS</p>
                         <ul>
                             <li><FaJava size="1.8em" /></li>
                             <li><SiSpring size="1.8em" /></li>
                             <li><FaReact size="1.8em" /></li>
+                            <li><SiTypescript size="1.8em" /></li>
                             <li><SiMongodb size="1.8em" /></li>
+                            <li><SiAuth0 size="1.8em" /></li>
                             <li><FaAws size="1.8em" /></li>
                         </ul>
                     </div>

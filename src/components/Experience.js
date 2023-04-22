@@ -1,7 +1,6 @@
 import { FaAws } from 'react-icons/fa';
 import styles from './Experience.module.css';
 import { SiPython, SiDocker, SiPowershell, SiC, SiClion } from 'react-icons/si';
-import { Element } from 'react-scroll';
 
 const Experience = () => {
     return (
