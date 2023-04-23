@@ -17,6 +17,11 @@ const Experience = () => {
                                 <h3>Software Developer @ TEQYARD</h3>
                                 <span>Sep 2022 - today</span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <ul>
+                                    <li> &#129170; hi</li>
+                                    <li>hi</li>
+                                    <li>hi</li>
+                                </ul>
                                 <ul style={{ listStyle: 'none', display: 'flex', padding: '0px', }}>
                                     <li style={{ marginRight: '8px' }}><SiPython size={26} /></li>
                                     <li style={{ marginRight: '8px' }}><SiDocker size={30} /></li>

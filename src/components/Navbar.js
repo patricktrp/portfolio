@@ -1,13 +1,18 @@
 import styles from './Navbar.module.css';
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
         <nav className={styles["navbar"]}>
             <div className={styles["navbar-inner"]}>
                 <span className={styles["navbar-inner-heading"]}>patrick.dev</span>
                 <div>
-                    <button onClick={() => document.documentElement.setAttribute("data-theme", "light")}>light</button>
-                    <button onClick={() => document.documentElement.setAttribute("data-theme", "dark")}>dark</button>
+                    <button onClick={props.toggleDarkMode}>light</button>
+                    <div>
+                        <label class="switch">
+                            <input type="checkbox" />
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
                 </div>
                 <ul className={styles["navbar-inner-list"]}>
                     <li><a href="#about">About</a></li>

@@ -2,6 +2,7 @@ import styles from './Hero.module.css';
 import { FaGithubSquare, FaLinkedin, FaAws, FaJava } from 'react-icons/fa';
 import { SiReact, SiDocker, SiSpring, SiPython, SiJavascript, SiPostgresql, SiMongodb, SiRedis, SiGo, SiTypescript, SiApachecassandra } from 'react-icons/si';
 import { MdEmail } from 'react-icons/md';
+import { IoIosPaper } from 'react-icons/io';
 import Waving from '../waving.png';
 import { Fade } from "@successtar/react-reveal";
 
@@ -22,6 +23,7 @@ const Hero = () => {
                             <ul className={styles["hero-main-icons"]}>
                                 <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithubSquare size="45" /></a></li>
                                 <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrick-treppmann/"><FaLinkedin size="45" /></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://treppmann-portfolio-website.s3.eu-central-1.amazonaws.com/CV_PatrickTreppmann.pdf"><IoIosPaper title="view resume" size="45" /></a></li>
                                 <li><a target="_blank" rel="noreferrer" href="mailto:patrick.treppmann97@gmail.com"><MdEmail size="45" /></a></li>
                             </ul>
                         </div>
