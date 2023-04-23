@@ -23,6 +23,21 @@
     color: var(--font-color-primary);
     font-size: 3rem;
  }
+
+.experience-list {
+   list-style: none;
+   padding: 0;
+ }
+.experience-list li{
+   position: relative;
+   padding-left: 25px;
+ }
+.experience-list li::before{
+   position: absolute;
+   left: 0;
+   content: "🢒   ";
+   color: var(--font-color-secondary);
+ }
  
 .experience h1 span {
     font-weight: 600;
@@ -93,10 +108,11 @@
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 25px;
-    font-weight: 500
- }
- 
- .timeline-content span {
+    font-weight: 500;
+    text-align: left;
+   }
+   
+   .timeline-content span {
     font-size: 15px;
     color: var(--font-color-secondary);
  }

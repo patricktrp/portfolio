@@ -46,10 +46,9 @@ const Hero = () => {
                             {/* <li><div title="Cassandra" className={styles["logo-background"]}><SiApachecassandra title="Cassandra" size={38} /></div></li> */}
                             <li><div title="Redis" className={styles["logo-background"]}><SiRedis title="Redis" size={30} /></div></li>
                             <li><div title="Docker" className={styles["logo-background"]}><SiDocker title="Docker" size={30} /></div></li>
-                            <li><div title="AWS" className={styles["logo-background"]}><FaAws title="AWS" size={30} /></div></li>
+                            <li><div title="Amazon Web Services" className={styles["logo-background"]}><FaAws title="Amazon Web Services" size={30} /></div></li>
                         </ul>
                     </div>
-
                 </Fade>
             </div>
         </section >
