@@ -5,10 +5,6 @@
   --font-color-secondary: #767676;
 }
 
-.html {
-  scroll-behavior: smooth;
-}
-
 [data-theme="dark"] {
   --background-primary: #121212;
   --background-secondary: #1f1f1f;

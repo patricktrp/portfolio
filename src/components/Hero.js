@@ -1,6 +1,6 @@
 import styles from './Hero.module.css';
 import { FaGithubSquare, FaLinkedin, FaAws, FaJava } from 'react-icons/fa';
-import { SiReact, SiDocker, SiSpring, SiPython, SiJavascript, SiPostgresql, SiMongodb, SiRedis, SiGo, SiTypescript, SiApachecassandra } from 'react-icons/si';
+import { SiReact, SiDocker, SiSpring, SiPython, SiJavascript, SiPostgresql, SiMongodb, SiRedis } from 'react-icons/si';
 import { MdEmail } from 'react-icons/md';
 import { IoIosPaper } from 'react-icons/io';
 import Waving from '../waving.png';
@@ -36,14 +36,14 @@ const Hero = () => {
                         <ul>
                             <li><div title="React" className={styles["logo-background"]}><SiReact title="React" size={30} /></div></li>
                             <li><div title="JavaScript" className={styles["logo-background"]}><SiJavascript title="JavaScript" size={30} /></div></li>
-                            <li><div title="TypeScript" className={styles["logo-background"]}><SiTypescript title="TypeScript" size={30} /></div></li>
+                            {/* <li><div title="TypeScript" className={styles["logo-background"]}><SiTypescript title="TypeScript" size={30} /></div></li> */}
                             <li><div title="Java" className={styles["logo-background"]}><FaJava title="Java" size={30} /></div></li>
                             <li><div title="Spring" className={styles["logo-background"]}><SiSpring title="Spring" size={30} /></div></li>
-                            <li><div title="Spring" className={styles["logo-background"]}><SiGo title="Spring" size={30} /></div></li>
+                            {/* <li><div title="Spring" className={styles["logo-background"]}><SiGo title="Spring" size={30} /></div></li> */}
                             <li><div title="Python" className={styles["logo-background"]}><SiPython title="Python" size={30} /></div></li>
                             <li><div title="PostgreSQL" className={styles["logo-background"]}><SiPostgresql title="PostgreSQL" size={30} /></div></li>
                             <li><div title="MongoDB" className={styles["logo-background"]}><SiMongodb title="MongoDB" size={30} /></div></li>
-                            <li><div title="Cassandra" className={styles["logo-background"]}><SiApachecassandra title="Cassandra" size={38} /></div></li>
+                            {/* <li><div title="Cassandra" className={styles["logo-background"]}><SiApachecassandra title="Cassandra" size={38} /></div></li> */}
                             <li><div title="Redis" className={styles["logo-background"]}><SiRedis title="Redis" size={30} /></div></li>
                             <li><div title="Docker" className={styles["logo-background"]}><SiDocker title="Docker" size={30} /></div></li>
                             <li><div title="AWS" className={styles["logo-background"]}><FaAws title="AWS" size={30} /></div></li>
