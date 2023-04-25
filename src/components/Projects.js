@@ -76,7 +76,7 @@ const Projects = () => {
 
 
                         <div className={styles["project-tech"]}>
-                            <p>Java, Spring, React, TypeScript, MongoDB, Auth0, AWS</p>
+                            <p>Java, Spring, React, TypeScript, MongoDB, Redis, Auth0, AWS</p>
                             <ul>
                                 <li><FaJava size="1.8em" /></li>
                                 <li><SiSpring size="1.8em" /></li>
