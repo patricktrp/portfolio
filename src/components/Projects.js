@@ -1,7 +1,7 @@
 import styles from './Projects.module.css';
 import { HiOutlineExternalLink } from 'react-icons/hi'
 import { FaGithub, FaJava, FaAws, FaReact } from 'react-icons/fa';
-import { SiMongodb, SiSpring, SiGo, SiDocker, SiHtml5, SiCss3, SiReact, SiTypescript, SiAuth0 } from 'react-icons/si';
+import { SiMongodb, SiSpring, SiGo, SiDocker, SiHtml5, SiCss3, SiReact, SiTypescript, SiAuth0, SiRedis } from 'react-icons/si';
 import Chess from '../chess.patricktreppmann.com_.png';
 import Sorting from '../sorting-visualizer.patricktreppmann.com_.png';
 import { Fade } from '@successtar/react-reveal';
@@ -83,6 +83,7 @@ const Projects = () => {
                                 <li><FaReact size="1.8em" /></li>
                                 <li><SiTypescript size="1.8em" /></li>
                                 <li><SiMongodb size="1.8em" /></li>
+                                <li><SiRedis size="1.8em" /></li>
                                 <li><SiAuth0 size="1.8em" /></li>
                                 <li><FaAws size="1.8em" /></li>
                             </ul>
