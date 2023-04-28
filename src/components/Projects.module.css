@@ -5,6 +5,12 @@
     justify-content: center;
 }
 
+@media (max-width: 520px) {
+    .projects {
+        display: none;
+    }
+  }
+
 .projects-inner-layout {
     margin-top: 200px;
     width: 50%;

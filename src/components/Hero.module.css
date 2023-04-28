@@ -54,11 +54,19 @@
         font-size: large;
     }
   }
+  @media (max-width: 520px) {
+    .hero-main p {
+       width: 70vw;
+    }
+  }
+
+
 .hero-main p a {
     text-decoration: none;
     color: inherit;
     /* color: var(--font-color-primary) */
 }
+
 
 .hero-main-heading img {
     margin-left: 1rem;
@@ -118,6 +126,11 @@
         width: 18.75rem;
     }
   }
+@media (max-width: 800px) {
+    .hero-main-img {
+        display: none;
+    }
+  }
 
 
 .skills {
@@ -133,6 +146,11 @@
     }
   }
 
+  @media (max-width: 520px) {
+    .skills {
+        display: none;
+    }
+  }
 
 .skills p {
     border-right: 2px solid var(--font-color-secondary);
