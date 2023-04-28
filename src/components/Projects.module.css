@@ -22,7 +22,7 @@
 
 .projects-card {
     width: 65%;
-    min-width: 550px;
+    min-width: 750px;
     border-radius: 15px;
     position: relative;
     background-color: var(--background-secondary);

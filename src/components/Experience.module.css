@@ -7,7 +7,9 @@
 .experience-inner-layout {
     margin-top: 200px;
     margin-bottom: 200px;
-    width: 60%;
+    /* width: 60%; */
+    min-width: 60%;
+    max-width: 92%;
 }
 
 .experience * {

@@ -1,5 +1,5 @@
 .hero {
-    height: 100vh;
+    height: 93vh;
     background-color: var(--background-primary);
     display: flex;
     align-items: center;
@@ -7,7 +7,9 @@
 }
 
 .hero-inner-layout {
-    width: 60%;
+    min-width: 60%;
+    max-width: 70%;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,14 +34,26 @@
     font-size: 4rem;
     margin-bottom: 0;
     margin-top: 0;
-
 }
+@media (max-width: 1900px) {
+    .hero-main-heading h1 {
+        font-size: 3rem;
+        margin-bottom: -20px;
+    }
+  }
 
 .hero-main p {
     color: var(--font-color-secondary);
     font-family: 'Mulish', sans-serif;
     font-size: larger;
+    width: 40vw;
 }
+
+@media (max-width: 1900px) {
+    .hero-main p {
+        font-size: large;
+    }
+  }
 .hero-main p a {
     text-decoration: none;
     color: inherit;
@@ -48,15 +62,29 @@
 
 .hero-main-heading img {
     margin-left: 1rem;
-    height: 5rem
+    height: 5rem;
 }
+@media (max-width: 1900px) {
+    .hero-main-heading img {
+        height: 3.5rem;
+    }
+  }
 
 .hero-main-icons {
     margin-top: 20px;
     list-style: none;
     display: flex;
     padding: 0;
+    font-size: 3rem;
 }
+
+@media (max-width: 1900px) {
+    .hero-main-icons {
+        margin-top: 8px;
+        font-size: 2rem;
+    }
+  }
+
 
 .hero-main-icons li {
     margin-right: 1rem;
@@ -84,6 +112,13 @@
     position: relative;
 }
 
+@media (max-width: 1900px) {
+    .hero-main-img {
+        height: 15rem;
+        width: 18.75rem;
+    }
+  }
+
 
 .skills {
     display: flex;
@@ -91,6 +126,12 @@
     margin-top: 7rem;
     justify-content: center;
 }
+
+@media (max-width: 1900px) {
+    .skills  {
+        margin-top: 1rem;
+    }
+  }
 
 
 .skills p {
@@ -121,4 +162,18 @@
     justify-content: center;
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 32px;
 }
+
+
+@media (max-width: 1900px) {
+    .skills .logo-background {
+        width: 55px;
+        height: 55px;
+        font-size: 27px;
+    }
+
+    .skills ul li {
+        margin-right: 1.5rem;
+    }
+  }
