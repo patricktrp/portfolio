@@ -29,12 +29,17 @@
 }
 
 .navbar-inner-list li {
-    margin-right: .8vw;
+    margin-right: 1.4vw;
     cursor: pointer;
     font-weight: 300;
-    /* font-size: 1.2rem; */
-    font-size: 1.8vh;
+    font-size: 1.2rem;
 }
+
+@media (max-width: 1900px) {
+    .navbar-inner-list li {
+        font-size: 1rem;
+    }
+  }
 
 .navbar-inner-list li a {
     color: var(--font-color-primary);
