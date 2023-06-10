@@ -1,7 +1,7 @@
 import { Fade } from '@successtar/react-reveal';
 import { FaAws, FaGithub, FaJava, FaReact } from 'react-icons/fa';
 import { HiOutlineExternalLink } from 'react-icons/hi';
-import { SiAuth0, SiCss3, SiDocker, SiGo, SiHtml5, SiMongodb, SiReact, SiRedis, SiSpring, SiTypescript } from 'react-icons/si';
+import { SiCss3, SiHtml5, SiReact, SiSpring } from 'react-icons/si';
 import Chess from '../assets/chess.patricktreppmann.com_.png';
 import Sorting from '../assets/sorting-visualizer.patricktreppmann.com_.png';
 import styles from './Projects.module.css';
@@ -61,7 +61,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </Fade>
-
+{/* 
                 <Fade left distance="30%">
                     <div className={styles["projects-card"]}>
                         <h1>Leetcode  <span className={styles["project-heading-highlight"]}>Clone</span></h1>
@@ -112,7 +112,7 @@ const Projects = () => {
                             </ul>
                         </div>
                     </div>
-                </Fade>
+                </Fade> */}
             </div>
         </section>
     );
