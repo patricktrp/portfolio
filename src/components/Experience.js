@@ -1,7 +1,7 @@
-import { FaAws } from 'react-icons/fa';
-import styles from './Experience.module.css';
-import { SiPython, SiDocker, SiPowershell, SiC, SiClion } from 'react-icons/si';
 import { Fade } from "@successtar/react-reveal";
+import { FaAws } from 'react-icons/fa';
+import { SiC, SiClion, SiDocker, SiPowershell, SiPython } from 'react-icons/si';
+import styles from './Experience.module.css';
 
 const Experience = () => {
     return (
@@ -18,9 +18,8 @@ const Experience = () => {
                                 <span>Sep 2022 - today</span>
                                 {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                                 <ul className={styles["experience-list"]}>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
+                                    <li>implemented a data-driven approach to detect pauses in vehicle data using Python</li>
+                                    <li>achieved the automated analysis of 200.000+ vehicles each month by implementing a machine learning pipeline on AWS</li>
                                 </ul>
                                 <ul style={{ listStyle: 'none', display: 'flex', padding: '0px', }}>
                                     <li style={{ marginRight: '8px' }}><SiPython size={26} /></li>
@@ -40,9 +39,7 @@ const Experience = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</p> */}
                                 <ul className={styles["experience-list"]}>
-                                    <li style={{ textAlign: 'left' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
-                                    <li style={{ textAlign: 'left' }} > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
-                                    <li style={{ textAlign: 'left' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
+                                    <li style={{ textAlign: 'left' }}>assisted the researchers with the extension of an OpenSSL fork to prevent replay attacks on 0-RTT sessions when using TLS</li>
                                 </ul>
                                 {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                                 <ul style={{ listStyle: 'none', display: 'flex', padding: '0px' }}>
@@ -59,9 +56,8 @@ const Experience = () => {
                                 <h3>Working Student @ Coroplast</h3>
                                 <span>July 2020 - Dec 2020</span>
                                 <ul className={styles["experience-list"]}>
-                                    <li style={{ textAlign: 'left' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
-                                    <li style={{ textAlign: 'left' }} > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
-                                    <li style={{ textAlign: 'left' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
+                                    <li style={{ textAlign: 'left' }}>automated various business processes by writing Python and Powershell scripts</li>
+                                    <li style={{ textAlign: 'left' }}>digitalized a process forin-house restaurant orders within the company by implementing an application with the low-code platform Microsoft Power Apps</li>
                                 </ul>
                                 {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                                 <ul style={{ listStyle: 'none', display: 'flex', padding: '0px', }}>

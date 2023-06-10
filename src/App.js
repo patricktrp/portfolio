@@ -1,11 +1,13 @@
+import { useState } from 'react';
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 
-let isDarkMode = false;
+// let isDarkMode = false;
 
 function App() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   const toggleDarkMode = () => {
     if (isDarkMode) {
@@ -13,12 +15,13 @@ function App() {
     } else {
       document.documentElement.setAttribute("data-theme", "dark");
     }
-    isDarkMode = !isDarkMode;
+    // isDarkMode = !isDarkMode;
+    setIsDarkMode(darkmode => !darkmode)
   }
 
   return (
     <>
-      <Navbar toggleDarkMode={toggleDarkMode} />
+      <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}/>
       <Hero />
       <Experience />
       <Projects />
