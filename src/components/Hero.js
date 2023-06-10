@@ -21,6 +21,7 @@ const Hero = () => {
                             </div>
                             {/* <p>I'm a computer science student and full stack developer based in Aachen, Germany. 📍</p> */}
                             <p style={{ maxWidth: '750px' }}>I am a m.sc. computer science student at <span><a href="https://www.rwth-aachen.de/cms/~a/root/?lidx=1">RWTH Aachen</a></span> where i specialize in software engineering, distributed systems & artificial intelligence. </p>
+                            <p style={{ maxWidth: '750px' }}></p>
                             <ul className={styles["hero-main-icons"]}>
                                 <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithubSquare /></a></li>
                                 <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrick-treppmann/"><FaLinkedin /></a></li>

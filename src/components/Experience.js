@@ -15,7 +15,7 @@ const Experience = () => {
                         <Fade right distance="50%">
                             <div className={styles["timeline-content"]}>
                                 <h3>Software Developer @ TEQYARD</h3>
-                                <span>Sep 2022 - today</span>
+                                <span>Sep 2022 - Present</span>
                                 {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                                 <ul className={styles["experience-list"]}>
                                     <li>implemented a data-driven approach to detect pauses in vehicle data using Python</li>
