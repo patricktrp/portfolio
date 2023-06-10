@@ -27,7 +27,7 @@
     display: none;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     .navbar-inner-list {
         list-style: none;
         display: flex;
@@ -54,8 +54,12 @@
     
 }
 
-@media (min-width: 500px) {
+/* .responsive-navbar-icon {
+    cursor: pointer;
+}
+
+@media (min-width: 600px) {
     .responsive-navbar-icon {
         display: none;
     }
-}
+} */

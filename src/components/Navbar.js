@@ -1,5 +1,4 @@
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
-import { FaBars } from 'react-icons/fa';
 import styles from './Navbar.module.css';
 
 const Navbar = (props) => {
@@ -13,7 +12,7 @@ const Navbar = (props) => {
                     <li><a href="#projects">Projects</a></li>
                     <li style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>{props.isDarkMode ? <BsFillMoonFill onClick={props.toggleDarkMode}/> : <BsFillSunFill onClick={props.toggleDarkMode}/>}</li>
                 </ul>
-                <FaBars className={styles['responsive-navbar-icon']}/>
+                {/* <FaBars className={styles['responsive-navbar-icon']}/> */}
             </div>
         </nav >
     );
