@@ -1,10 +1,11 @@
-import styles from './Hero.module.css';
-import { FaGithubSquare, FaLinkedin, FaAws, FaJava } from 'react-icons/fa';
-import { SiReact, SiDocker, SiSpring, SiPython, SiJavascript, SiPostgresql, SiMongodb, SiRedis } from 'react-icons/si';
-import { MdEmail } from 'react-icons/md';
-import { IoIosPaper } from 'react-icons/io';
-import Waving from '../waving.png';
 import { Fade } from "@successtar/react-reveal";
+import { FaAws, FaGithubSquare, FaJava, FaLinkedin } from 'react-icons/fa';
+import { IoIosPaper } from 'react-icons/io';
+import { MdEmail } from 'react-icons/md';
+import { SiApachecassandra, SiDocker, SiJavascript, SiMongodb, SiPostgresql, SiPython, SiReact, SiRedis, SiSpring } from 'react-icons/si';
+import CV from '../assets/cv.pdf';
+import Waving from '../assets/waving.png';
+import styles from './Hero.module.css';
 
 const Hero = () => {
     return (
@@ -23,7 +24,7 @@ const Hero = () => {
                             <ul className={styles["hero-main-icons"]}>
                                 <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithubSquare /></a></li>
                                 <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrick-treppmann/"><FaLinkedin /></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="https://treppmann-portfolio-website.s3.eu-central-1.amazonaws.com/CV_PatrickTreppmann.pdf"><IoIosPaper title="view resume" /></a></li>
+                                <li><a target="_blank" rel="noreferrer" href={CV}><IoIosPaper title="view resume" /></a></li>
                                 <li><a target="_blank" rel="noreferrer" href="mailto:patrick.treppmann97@gmail.com"><MdEmail /></a></li>
                             </ul>
                         </div>
@@ -36,14 +37,12 @@ const Hero = () => {
                         <ul>
                             <li><div title="React" className={styles["logo-background"]}><SiReact title="React" /></div></li>
                             <li><div title="JavaScript" className={styles["logo-background"]}><SiJavascript title="JavaScript" /></div></li>
-                            {/* <li><div title="TypeScript" className={styles["logo-background"]}><SiTypescript title="TypeScript" /></div></li> */}
                             <li><div title="Java" className={styles["logo-background"]}><FaJava title="Java" /></div></li>
                             <li><div title="Spring" className={styles["logo-background"]}><SiSpring title="Spring" /></div></li>
-                            {/* <li><div title="Spring" className={styles["logo-background"]}><SiGo title="Spring" /></div></li> */}
                             <li><div title="Python" className={styles["logo-background"]}><SiPython title="Python" /></div></li>
                             <li><div title="PostgreSQL" className={styles["logo-background"]}><SiPostgresql title="PostgreSQL" /></div></li>
                             <li><div title="MongoDB" className={styles["logo-background"]}><SiMongodb title="MongoDB" /></div></li>
-                            {/* <li><div title="Cassandra" className={styles["logo-background"]}><SiApachecassandra title="Cassandra" size={38} /></div></li> */}
+                            <li><div title="Cassandra" className={styles["logo-background"]}><SiApachecassandra title="Cassandra" /></div></li>
                             <li><div title="Redis" className={styles["logo-background"]}><SiRedis title="Redis" /></div></li>
                             <li><div title="Docker" className={styles["logo-background"]}><SiDocker title="Docker" /></div></li>
                             <li><div title="Amazon Web Services" className={styles["logo-background"]}><FaAws title="Amazon Web Services" /></div></li>

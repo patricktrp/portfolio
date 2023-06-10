@@ -1,10 +1,10 @@
-import styles from './Projects.module.css';
-import { HiOutlineExternalLink } from 'react-icons/hi'
-import { FaGithub, FaJava, FaAws, FaReact } from 'react-icons/fa';
-import { SiMongodb, SiSpring, SiGo, SiDocker, SiHtml5, SiCss3, SiReact, SiTypescript, SiAuth0, SiRedis } from 'react-icons/si';
-import Chess from '../chess.patricktreppmann.com_.png';
-import Sorting from '../sorting-visualizer.patricktreppmann.com_.png';
 import { Fade } from '@successtar/react-reveal';
+import { FaAws, FaGithub, FaJava, FaReact } from 'react-icons/fa';
+import { HiOutlineExternalLink } from 'react-icons/hi';
+import { SiAuth0, SiCss3, SiDocker, SiGo, SiHtml5, SiMongodb, SiReact, SiRedis, SiSpring, SiTypescript } from 'react-icons/si';
+import Chess from '../assets/chess.patricktreppmann.com_.png';
+import Sorting from '../assets/sorting-visualizer.patricktreppmann.com_.png';
+import styles from './Projects.module.css';
 
 const Projects = () => {
     return (
