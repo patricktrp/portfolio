@@ -1,5 +1,5 @@
 .hero {
-    height: 93vh;
+    /* height: 93vh; */
     background-color: var(--background-primary);
     display: flex;
     align-items: center;
@@ -9,7 +9,7 @@
 .hero-inner-layout {
     min-width: 60%;
     max-width: 70%;
-
+    margin-top: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,6 +155,7 @@
 .skills p {
     border-right: 2px solid var(--font-color-secondary);
     width: 150px;
+    min-width: 55px;
     font-family: 'Mulish', sans-serif;
     font-size: large;
     color: var(--font-color-secondary)
