@@ -24,9 +24,16 @@
 }
 
 .navbar-inner-list {
-    list-style: none;
-    display: flex;
+    display: none;
 }
+
+@media (min-width: 500px) {
+    .navbar-inner-list {
+        list-style: none;
+        display: flex;
+    }
+}
+
 
 .navbar-inner-list li {
     margin-right: 1.4vw;
@@ -45,4 +52,10 @@
     color: var(--font-color-primary);
     text-decoration: none;
     
+}
+
+@media (min-width: 500px) {
+    .responsive-navbar-icon {
+        display: none;
+    }
 }
