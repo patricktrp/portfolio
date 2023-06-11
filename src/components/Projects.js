@@ -16,7 +16,7 @@ const Projects = () => {
                 <Fade left distance="30%">
                     <div className={styles["projects-card"]}>
                         <h1>Online Chess</h1>
-                        <p style={{ maxWidth: '50%' }}>This is an online chess app where you can choose to play against your friend or you can try to beat my Artifical Intelligence!</p>
+                        <p>This is an online chess app where you can choose to play against your friend or you can try to beat my Artifical Intelligence!</p>
 
                         <img alt="" src={Chess} className={styles["project-demo-img"]} />
                         <div className={styles["project-links"]}>
@@ -41,7 +41,7 @@ const Projects = () => {
                 <Fade right distance="30%">
                     <div className={styles["projects-card"]}>
                         <h1>Sorting <span className={styles["project-heading-highlight"]}>Visualizer</span></h1>
-                        <p style={{ maxWidth: '50%' }}>This web application visualizes several sorting algorithms and how they operate on the data. Go and try it yourself!</p>
+                        <p>This web application visualizes several sorting algorithms and how they operate on the data. Go and try it yourself!</p>
 
                         <img alt="" src={Sorting} className={styles["project-demo-img"]} />
                         <div className={styles["project-links"]}>
