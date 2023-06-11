@@ -22,7 +22,7 @@
 
 .projects-card {
     width: 100%;
-    min-width: 320px;
+    min-width: 280px;
     border-radius: 15px;
     position: relative;
     background-color: var(--background-secondary);
@@ -30,7 +30,7 @@
     padding: 25px;
     margin-bottom: 50px;
     margin-top: 50px;
-    min-height: 300px;
+    min-height: 250px;
 }
 
 .project-heading-highlight {
@@ -44,7 +44,7 @@
 .projects-card p {
     color: var(--font-color-secondary);
     font-family: 'Mulish', sans-serif;
-    max-width: 75%;
+    max-width: 90%;
 }
 
 .project-links {
@@ -57,6 +57,9 @@
 }
 
 @media (min-width: 1200px) {
+    .projects-card {
+        min-height: 300px;
+    }
     .project-demo-img {
         display:block;
         width: 40%;
