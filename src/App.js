@@ -15,7 +15,6 @@ function App() {
     } else {
       document.documentElement.setAttribute("data-theme", "dark");
     }
-    // isDarkMode = !isDarkMode;
     setIsDarkMode(darkmode => !darkmode)
   }
 
