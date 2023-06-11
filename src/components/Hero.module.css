@@ -146,11 +146,6 @@
     }
   }
 
-  /* @media (max-width: 520px) {
-    .skills {
-        display: none;
-    }
-  } */
 
 .skills p {
     border-right: 2px solid var(--font-color-secondary);
@@ -167,24 +162,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-
-/* @media (max-width: 950px) {
-    .skills {
-
-    }
-
-    .skills p {
-        border-right: none
-    }
-
-    .skills ul {
-        flex-direction: column;
-    }
-
-    .skills ul li {
-        margin-bottom: 10px;
-    }
-} */
 
 .skills ul li {
     margin-right: 2rem;

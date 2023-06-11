@@ -26,7 +26,7 @@ const Hero = () => {
                                 <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithubSquare title="view github"/></a></li>
                                 <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrick-treppmann/"><FaLinkedin title="view linkedin"/></a></li>
                                 <li><a target="_blank" rel="noreferrer" href={CV} download="CV_PatrickTreppmann"><IoIosPaper title="download resume"/></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="mailto:patrick.treppmann97@gmail.com"><MdEmail title="send a mail"/></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="mailto:patrick@treppmann.dev"><MdEmail title="send a mail"/></a></li>
                             </ul>
                         </div>
                         <div className={styles["hero-main-img-wrapper"]}>

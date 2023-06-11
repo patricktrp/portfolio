@@ -12,7 +12,6 @@ const Navbar = (props) => {
                     <li><a href="#projects">Projects</a></li>
                     <li style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>{props.isDarkMode ? <BsFillMoonFill onClick={props.toggleDarkMode}/> : <BsFillSunFill onClick={props.toggleDarkMode}/>}</li>
                 </ul>
-                {/* <FaBars className={styles['responsive-navbar-icon']}/> */}
             </div>
         </nav >
     );
