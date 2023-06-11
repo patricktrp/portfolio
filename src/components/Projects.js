@@ -8,14 +8,20 @@ import styles from './Projects.module.css';
 
 const ICON_SIZE = "1.8em";
 
+const ICON_MAPPING = {
+    Java: <FaJava size={ICON_SIZE}/>,
+    Spring: <SiSpring size={ICON_SIZE}/>, 
+    React: <FaReact size={ICON_SIZE}/>,
+    AWS: <FaAws size={ICON_SIZE}/>,
+    HTML: <SiHtml5 size={ICON_SIZE}/>,
+    CSS: <SiCss3 size={ICON_SIZE}/>
+}
+
 const PROJECTS = [
     {
         name: ["Online", "Chess"], 
         description: "This is an online chess app where you can choose to play against your friend or you can try to beat my Artifical Intelligence!",
-        technologies: {
-            names: ["Java", "Spring", "React", "AWS"],
-            icons: [<FaJava size={ICON_SIZE}/>, <SiSpring size={ICON_SIZE}/>, <FaReact size={ICON_SIZE}/>, <FaAws size={ICON_SIZE}/>]
-        },
+        technologies: ["Java", "Spring", "React", "AWS"],
         links: {
             github: "https://github.com/patricktrp/chess",
             hosted: "https://chess.treppmann.dev"
@@ -25,10 +31,7 @@ const PROJECTS = [
     {
         name: ["Sorting", "Visualizer"], 
         description: "This web application visualizes several sorting algorithms and how they operate on the data. Go and try it yourself!",
-        technologies: {
-            names: ["React", "HTML", "CSS"],
-            icons: [<FaReact size={ICON_SIZE}/>, <SiHtml5 size={ICON_SIZE}/>, <SiCss3 size={ICON_SIZE}/>]
-        },
+        technologies: ["React", "HTML", "CSS"],
         links: {
             github: "https://github.com/patricktrp/sorting-visualizer",
             hosted: "https://sorting-visualizer.treppmann.dev"
@@ -60,9 +63,9 @@ const Projects = () => {
                                 </div>
         
                                 <div className={styles["project-tech"]}>
-                                    <p>{project.technologies.names.join(", ")}</p>
+                                    <p>{project.technologies.join(", ")}</p>
                                     <ul>
-                                        {project.technologies.icons.map(icon => <li>{icon}</li>)}
+                                        {project.technologies.map(tech => <li>{ICON_MAPPING[tech]}</li>)}
                                     </ul>
                                 </div>
                             </div>
