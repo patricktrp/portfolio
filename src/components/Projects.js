@@ -1,10 +1,41 @@
 import { Fade } from '@successtar/react-reveal';
 import { FaAws, FaGithub, FaJava, FaReact } from 'react-icons/fa';
 import { HiOutlineExternalLink } from 'react-icons/hi';
-import { SiCss3, SiHtml5, SiReact, SiSpring } from 'react-icons/si';
+import { SiCss3, SiHtml5, SiSpring } from 'react-icons/si';
 import Chess from '../assets/chess.patricktreppmann.com_.png';
 import Sorting from '../assets/sorting-visualizer.patricktreppmann.com_.png';
 import styles from './Projects.module.css';
+
+const ICON_SIZE = "1.8em";
+
+const PROJECTS = [
+    {
+        name: ["Online", "Chess"], 
+        description: "This is an online chess app where you can choose to play against your friend or you can try to beat my Artifical Intelligence!",
+        technologies: {
+            names: ["Java", "Spring", "React", "AWS"],
+            icons: [<FaJava size={ICON_SIZE}/>, <SiSpring size={ICON_SIZE}/>, <FaReact size={ICON_SIZE}/>, <FaAws size={ICON_SIZE}/>]
+        },
+        links: {
+            github: "https://github.com/patricktrp/chess",
+            hosted: "https://chess.treppmann.dev"
+        },
+        img: Chess
+    },
+    {
+        name: ["Sorting", "Visualizer"], 
+        description: "This web application visualizes several sorting algorithms and how they operate on the data. Go and try it yourself!",
+        technologies: {
+            names: ["React", "HTML", "CSS"],
+            icons: [<FaReact size={ICON_SIZE}/>, <SiHtml5 size={ICON_SIZE}/>, <SiCss3 size={ICON_SIZE}/>]
+        },
+        links: {
+            github: "https://github.com/patricktrp/sorting-visualizer",
+            hosted: "https://sorting-visualizer.treppmann.dev"
+        },
+        img: Sorting
+    }
+]
 
 const Projects = () => {
     return (
@@ -13,106 +44,31 @@ const Projects = () => {
             <div className={styles["projects-inner-layout"]}>
                 <h1 className={styles["section-heading"]}>Projects</h1>
 
-                <Fade left distance="30%">
-                    <div className={styles["projects-card"]}>
-                        <h1>Online <span className={styles["project-heading-highlight"]}>Chess</span></h1>
-                        <p>This is an online chess app where you can choose to play against your friend or you can try to beat my Artifical Intelligence!</p>
-
-                        <img alt="" src={Chess} className={styles["project-demo-img"]} />
-                        <div className={styles["project-links"]}>
-                            <ul>
-                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp/chess"><FaGithub size="1.8em" title="view source code" /></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="https://chess.treppmann.dev"><HiOutlineExternalLink size="1.8em" title="view live demo" /></a></li>
-                            </ul>
-                        </div>
-
-                        <div className={styles["project-tech"]}>
-                            <p>Java, Spring, React, AWS</p>
-                            <ul>
-                                <li><FaJava size="1.8em" /></li>
-                                <li><SiSpring size="1.8em" /></li>
-                                <li><FaReact size="1.8em" /></li>
-                                <li><FaAws size="1.8em" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </Fade>
-
-                <Fade right distance="30%">
-                    <div className={styles["projects-card"]}>
-                        <h1>Sorting <span className={styles["project-heading-highlight"]}>Visualizer</span></h1>
-                        <p>This web application visualizes several sorting algorithms and how they operate on the data. Go and try it yourself!</p>
-
-                        <img alt="" src={Sorting} className={styles["project-demo-img"]} />
-                        <div className={styles["project-links"]}>
-                            <ul>
-                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp/sorting-visualizer"><FaGithub size="1.8em" title="view source code" /></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="https://sorting-visualizer.treppmann.dev"><HiOutlineExternalLink title="view live demo" size="1.8em" /></a></li>
-                            </ul>
-                        </div>
-
-                        <div className={styles["project-tech"]}>
-                            <p>React, HTML, CSS</p>
-                            <ul>
-                                <li><SiReact size="1.8em" /></li>
-                                <li><SiHtml5 size="1.8em" /></li>
-                                <li><SiCss3 size="1.8em" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </Fade>
-{/* 
-                <Fade left distance="30%">
-                    <div className={styles["projects-card"]}>
-                        <h1>Leetcode  <span className={styles["project-heading-highlight"]}>Clone</span></h1>
-                        <p style={{ maxWidth: '50%' }}>This full-stack web application is a clone of the popular website Leetcode.</p>
-                        <p style={{ maxWidth: '50%' }}>It supports authentication, an integration of the stripe api for payments and most importantly a remote code execution engine.</p>
-                        <div className={styles["project-links"]}>
-                            <ul>
-                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithub size="1.8em" title="view source code" /></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><HiOutlineExternalLink title="view live demo" size="1.8em" /></a></li>
-                            </ul>
-                        </div>
-
-
-                        <div className={styles["project-tech"]}>
-                            <p>Java, Spring, React, TypeScript, MongoDB, Redis, Auth0, AWS</p>
-                            <ul>
-                                <li><FaJava size="1.8em" /></li>
-                                <li><SiSpring size="1.8em" /></li>
-                                <li><FaReact size="1.8em" /></li>
-                                <li><SiTypescript size="1.8em" /></li>
-                                <li><SiMongodb size="1.8em" /></li>
-                                <li><SiRedis size="1.8em" /></li>
-                                <li><SiAuth0 size="1.8em" /></li>
-                                <li><FaAws size="1.8em" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </Fade>
-
-                <Fade right distance="30%">
-
-                    <div className={styles["projects-card"]}>
-                        <h1>Distributed <span className={styles["project-heading-highlight"]}>Cache</span></h1>
-                        <p style={{ maxWidth: '50%' }}>This is a lightweight version of a distributed caching system like Memcached. It supports storage and deletion of files on different nodes.</p>
-                        <div className={styles["project-links"]}>
-                            <ul>
-                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithub size="1.8em" title="view source code" /></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><HiOutlineExternalLink title="view live demo" size="1.8em" /></a></li>
-                            </ul>
-                        </div>
-
-
-                        <div className={styles["project-tech"]}>
-                            <p>Go, Docker</p>
-                            <ul>
-                                <li><SiGo size="1.8em" /></li>
-                                <li><SiDocker size="1.8em" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </Fade> */}
+                {PROJECTS.map((project, idx) => {
+                    return (
+                        <Fade left={idx % 2 === 0} right={idx % 2 === 1} distance="30%">
+                            <div className={styles["projects-card"]}>
+                                <h1>{project.name[0]} <span className={styles["project-heading-highlight"]}>{project.name[1]}</span></h1>
+                                <p>{project.description}</p>
+        
+                                <img alt="" src={project.img} className={styles["project-demo-img"]} />
+                                <div className={styles["project-links"]}>
+                                    <ul>
+                                        <li><a target="_blank" rel="noreferrer" href={project.links.github}><FaGithub size="1.8em" title="view source code" /></a></li>
+                                        <li><a target="_blank" rel="noreferrer" href={project.links.hosted}><HiOutlineExternalLink size="1.8em" title="view live demo" /></a></li>
+                                    </ul>
+                                </div>
+        
+                                <div className={styles["project-tech"]}>
+                                    <p>{project.technologies.names.join(", ")}</p>
+                                    <ul>
+                                        {project.technologies.icons.map(icon => <li>{icon}</li>)}
+                                    </ul>
+                                </div>
+                            </div>
+                        </Fade>
+                    )
+                })}
             </div>
         </section>
     );
