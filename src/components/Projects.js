@@ -15,7 +15,7 @@ const Projects = () => {
 
                 <Fade left distance="30%">
                     <div className={styles["projects-card"]}>
-                        <h1>Online Chess</h1>
+                        <h1>Online <span className={styles["project-heading-highlight"]}>Chess</span></h1>
                         <p>This is an online chess app where you can choose to play against your friend or you can try to beat my Artifical Intelligence!</p>
 
                         <img alt="" src={Chess} className={styles["project-demo-img"]} />
