@@ -23,10 +23,10 @@ const Hero = () => {
                             <p style={{ maxWidth: '750px', marginBottom: '0px'}}>I am a m.sc. computer science student at <span><a href="https://www.rwth-aachen.de/cms/~a/root/?lidx=1">RWTH Aachen</a></span> where i specialize in software engineering, distributed systems & artificial intelligence. </p>
                             <p style={{ maxWidth: '750px' }}>I have great interest in full stack web development with a slight preference for backend technologies.</p>
                             <ul className={styles["hero-main-icons"]}>
-                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithubSquare /></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrick-treppmann/"><FaLinkedin /></a></li>
-                                <li><a target="_blank" rel="noreferrer" href={CV}><IoIosPaper title="view resume" /></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="mailto:patrick.treppmann97@gmail.com"><MdEmail /></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithubSquare title="view github"/></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrick-treppmann/"><FaLinkedin title="view linkedin"/></a></li>
+                                <li><a target="_blank" rel="noreferrer" href={CV} download="CV_PatrickTreppmann"><IoIosPaper title="download resume"/></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="mailto:patrick.treppmann97@gmail.com"><MdEmail title="send a mail"/></a></li>
                             </ul>
                         </div>
                         <div className={styles["hero-main-img-wrapper"]}>
