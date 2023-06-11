@@ -22,7 +22,7 @@ const Projects = () => {
                         <div className={styles["project-links"]}>
                             <ul>
                                 <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp/chess"><FaGithub size="1.8em" title="view source code" /></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="https://chess.patricktreppmann.com"><HiOutlineExternalLink size="1.8em" title="view live demo" /></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://chess.treppmann.dev"><HiOutlineExternalLink size="1.8em" title="view live demo" /></a></li>
                             </ul>
                         </div>
 
@@ -46,8 +46,8 @@ const Projects = () => {
                         <img alt="" src={Sorting} className={styles["project-demo-img"]} />
                         <div className={styles["project-links"]}>
                             <ul>
-                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithub size="1.8em" title="view source code" /></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><HiOutlineExternalLink title="view live demo" size="1.8em" /></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp/sorting-visualizer"><FaGithub size="1.8em" title="view source code" /></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://sorting-visualizer.treppmann.dev"><HiOutlineExternalLink title="view live demo" size="1.8em" /></a></li>
                             </ul>
                         </div>
 

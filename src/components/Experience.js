@@ -16,7 +16,6 @@ const Experience = () => {
                             <div className={styles["timeline-content"]}>
                                 <h3>Software Developer @ TEQYARD</h3>
                                 <span>Sep 2022 - Present</span>
-                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                                 <ul className={styles["experience-list"]}>
                                     <li>implemented a data-driven approach to detect pauses in vehicle data using Python</li>
                                     <li>achieved the automated analysis of 200.000+ vehicles each month by implementing a machine learning pipeline on AWS</li>
@@ -35,13 +34,9 @@ const Experience = () => {
                             <div className={styles["timeline-content"]}>
                                 <h3>Student Assistant @ University of Wuppertal</h3>
                                 <span>Feb 2021 - Jan 2022</span>
-                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor</p> */}
                                 <ul className={styles["experience-list"]}>
                                     <li style={{ textAlign: 'left' }}>assisted the researchers with the extension of an OpenSSL fork to prevent replay attacks on 0-RTT sessions when using TLS</li>
                                 </ul>
-                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                                 <ul style={{ listStyle: 'none', display: 'flex', padding: '0px' }}>
                                     <li style={{ marginRight: '8px' }}><SiC size={26} /></li>
                                     <li style={{ marginRight: '8px' }}><SiClion size={26} /></li>
