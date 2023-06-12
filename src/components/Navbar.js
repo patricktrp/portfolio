@@ -10,7 +10,7 @@ const Navbar = (props) => {
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>{props.isDarkMode ? <BsFillMoonFill onClick={props.toggleDarkMode}/> : <BsFillSunFill onClick={props.toggleDarkMode}/>}</li>
+                    <li style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>{!props.isDarkMode ? <BsFillMoonFill onClick={props.toggleDarkMode}/> : <BsFillSunFill onClick={props.toggleDarkMode}/>}</li>
                 </ul>
             </div>
         </nav >
