@@ -52,7 +52,7 @@ const Experience = () => {
                                 <span>July 2020 - Dec 2020</span>
                                 <ul className={styles["experience-list"]}>
                                     <li style={{ textAlign: 'left' }}>automated various business processes by writing Python and Powershell scripts</li>
-                                    <li style={{ textAlign: 'left' }}>digitalized a process forin-house restaurant orders within the company by implementing an application with the low-code platform Microsoft Power Apps</li>
+                                    <li style={{ textAlign: 'left' }}>digitalized a process for in-house restaurant orders within the company by implementing an application with the low-code platform Microsoft Power Apps</li>
                                 </ul>
                                 {/* <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad t amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adt amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> */}
                                 <ul style={{ listStyle: 'none', display: 'flex', padding: '0px', }}>
