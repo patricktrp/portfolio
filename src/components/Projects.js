@@ -1,8 +1,9 @@
 import { Fade } from '@successtar/react-reveal';
 import { FaAws, FaGithub, FaJava, FaReact } from 'react-icons/fa';
 import { HiOutlineExternalLink } from 'react-icons/hi';
-import { SiCss3, SiHtml5, SiSpring, SiJavascript } from 'react-icons/si';
-// import Chess from '../assets/chess.patricktreppmann.com_.png';
+import { SiCss3, SiHtml5, SiSpring, SiJavascript, SiAuth0, SiDocker } from 'react-icons/si';
+import Chess from '../assets/chess.patricktreppmann.com_.png';
+import Leetcode from '../assets/leetcode-clone.png';
 import Sorting from '../assets/sorting-visualizer.patricktreppmann.com_.png';
 import styles from './Projects.module.css';
 
@@ -15,7 +16,9 @@ const ICON_MAPPING = {
     AWS: <FaAws size={ICON_SIZE} />,
     HTML: <SiHtml5 size={ICON_SIZE} />,
     CSS: <SiCss3 size={ICON_SIZE} />,
-    JavaScript: <SiJavascript size={ICON_SIZE} />
+    JavaScript: <SiJavascript size={ICON_SIZE} />,
+    Auth0: <SiAuth0 size={ICON_SIZE} />,
+    Docker: <SiDocker size={ICON_SIZE} />,
 }
 
 const PROJECTS = [
@@ -34,7 +37,7 @@ const PROJECTS = [
     },
     // {
     //     name: ["Online", "Chess"],
-    //     descriptions: "This is an online chess app where you can choose to play against your friend or you can try to beat my Artifical Intelligence!",
+    //     description: ["This is an online chess app where you can choose to play against your friend or you can try to beat my Artifical Intelligence!"],
     //     technologies: ["Java", "Spring", "React", "AWS"],
     //     links: {
     //         github: "https://github.com/patricktrp/chess",
@@ -42,6 +45,19 @@ const PROJECTS = [
     //     },
     //     img: Chess
     // },
+    // {
+    //     name: ["Leetcode", "Clone"],
+    //     description: [
+    //         "This is a full-stack clone of the popular website Leetcode!",
+    //         "It includes Authentication, Authorization and a Remote Code Execution Engine!"
+    //     ],
+    //     technologies: ["React", "Java", "Spring", "Docker", "AWS", "Auth0"],
+    //     links: {
+    //         github: "https://github.com/patricktrp/leetcode-clone",
+    //         hosted: "https://leetcode.treppmann.dev"
+    //     },
+    //     img: Leetcode
+    // }
 ]
 
 const Projects = () => {
