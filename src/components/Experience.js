@@ -3,12 +3,44 @@ import { FaAws } from 'react-icons/fa';
 import { SiC, SiClion, SiDocker, SiPowershell, SiPython } from 'react-icons/si';
 import styles from './Experience.module.css';
 
+// const EXPERIENCES = [
+//     {
+//         position: "Software Developer @ TEQYARD",
+//         duration: "Sep 2022 - Present",
+//         description: [
+//             "implemented a data-driven approach to detect pauses in vehicle data using Python",
+//             "achieved the automated analysis of 200.000+ vehicles each month by implementing a machine learning pipeline on AWS"
+//         ],
+//         tech: [<SiPython size={26} />, <SiDocker size={30} />, <FaAws size={30} />]
+//     }
+// ]
+
 const Experience = () => {
     return (
         <section className={styles.experience} id="experience">
             <div className={styles["experience-inner-layout"]}>
                 <h1 className={styles["section-heading"]}>Experience</h1>
                 <div className={styles["container"]}>
+
+                    {/* {EXPERIENCES.map(experience =>
+                        <div className={`${styles["timeline-block"]} ${styles["timeline-block-right"]}`}>
+                            <div className={styles["marker"]}></div>
+                            <Fade right distance="50%">
+                                <div className={styles["timeline-content"]}>
+                                    <h3>{experience.position}</h3>
+                                    <span>{experience.duration}</span>
+                                    <ul className={styles["experience-list"]}>
+                                        {experience.description.map(paragraph => <li>{paragraph}</li>)}
+                                    </ul>
+                                    <ul style={{ listStyle: 'none', display: 'flex', padding: '0px', }}>
+                                        {experience.tech.map(icon => <li style={{ marginRight: '8px' }}>{icon}</li>)}
+                                    </ul>
+                                </div>
+                            </Fade>
+                        </div>
+                    )} */}
+
+
 
                     <div className={`${styles["timeline-block"]} ${styles["timeline-block-right"]}`}>
                         <div className={styles["marker"]}></div>
@@ -49,7 +81,7 @@ const Experience = () => {
                         <Fade right distance="50%">
                             <div className={styles["timeline-content"]}>
                                 <h3>Working Student @ Coroplast</h3>
-                                <span>July 2020 - Dec 2020</span>
+                                <span>Jul 2020 - Dec 2020</span>
                                 <ul className={styles["experience-list"]}>
                                     <li style={{ textAlign: 'left' }}>automated various business processes by writing Python and Powershell scripts</li>
                                     <li style={{ textAlign: 'left' }}>digitalized a process for in-house restaurant orders within the company by implementing an application with the low-code platform Microsoft Power Apps</li>
