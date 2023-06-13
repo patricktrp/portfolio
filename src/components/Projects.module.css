@@ -21,8 +21,9 @@
 }
 
 .projects-card {
-    width: 80%;
+    width: 90%;
     min-width: 280px;
+    max-width: 800px;
     border-radius: 15px;
     position: relative;
     background-color: var(--background-secondary);
@@ -39,6 +40,7 @@
 
 .project-demo-img {
     display: none;
+    max-width: 380px;
 }
 
 .projects-card p {

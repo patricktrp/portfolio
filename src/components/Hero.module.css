@@ -1,5 +1,5 @@
 .hero {
-    /* height: 93vh; */
+    height: 93vh;
     background-color: var(--background-primary);
     display: flex;
     align-items: center;
