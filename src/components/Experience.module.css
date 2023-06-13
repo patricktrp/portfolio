@@ -95,7 +95,7 @@
     /* border: 2px solid var(--font-color-primary); */
     background: var(--font-color-primary);
     margin-top: 10px;
-    z-index: 9999
+    z-index: 9998
  }
  
  .timeline-content {
