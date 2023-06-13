@@ -2,8 +2,8 @@ import { Fade } from '@successtar/react-reveal';
 import { FaAws, FaGithub, FaJava, FaReact } from 'react-icons/fa';
 import { HiOutlineExternalLink } from 'react-icons/hi';
 import { SiCss3, SiHtml5, SiSpring, SiJavascript, SiAuth0, SiDocker } from 'react-icons/si';
-import Chess from '../assets/chess.patricktreppmann.com_.png';
-import Leetcode from '../assets/leetcode-clone.png';
+// import Chess from '../assets/chess.patricktreppmann.com_.png';
+// import Leetcode from '../assets/leetcode-clone.png';
 import Sorting from '../assets/sorting-visualizer.patricktreppmann.com_.png';
 import styles from './Projects.module.css';
 
