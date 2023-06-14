@@ -1,7 +1,8 @@
 import { Fade } from '@successtar/react-reveal';
 import { FaAws, FaGithub, FaJava, FaReact } from 'react-icons/fa';
+import { TbBrandGolang } from 'react-icons/tb';
 import { HiOutlineExternalLink } from 'react-icons/hi';
-import { SiCss3, SiHtml5, SiSpring, SiJavascript, SiAuth0, SiDocker } from 'react-icons/si';
+import { SiCss3, SiHtml5, SiSpring, SiJavascript, SiAuth0, SiDocker, SiRedis, SiPostgresql, SiApachecassandra, SiMongodb } from 'react-icons/si';
 // import Chess from '../assets/chess.patricktreppmann.com_.png';
 // import Leetcode from '../assets/leetcode-clone.png';
 import Sorting from '../assets/sorting-visualizer.patricktreppmann.com_.png';
@@ -19,6 +20,11 @@ const ICON_MAPPING = {
     JavaScript: <SiJavascript size={ICON_SIZE} />,
     Auth0: <SiAuth0 size={ICON_SIZE} />,
     Docker: <SiDocker size={ICON_SIZE} />,
+    Redis: <SiRedis size={ICON_SIZE} />,
+    PostgreSQL: <SiPostgresql size={ICON_SIZE} />,
+    Cassandra: <SiApachecassandra size={ICON_SIZE} />,
+    MongoDB: <SiMongodb size={ICON_SIZE} />,
+    Go: <TbBrandGolang size={ICON_SIZE} />
 }
 
 const PROJECTS = [
@@ -38,7 +44,7 @@ const PROJECTS = [
     // {
     //     name: ["Online", "Chess"],
     //     description: ["This is an online chess app where you can choose to play against your friend or you can try to beat my Artifical Intelligence!"],
-    //     technologies: ["Java", "Spring", "React", "AWS"],
+    //     technologies: ["React", "Java", "Spring", "AWS"],
     //     links: {
     //         github: "https://github.com/patricktrp/chess",
     //         hosted: "https://chess.treppmann.dev"
@@ -51,7 +57,7 @@ const PROJECTS = [
     //         "This is a full-stack clone of the popular website Leetcode!",
     //         "It includes Authentication, Authorization and a Remote Code Execution Engine!"
     //     ],
-    //     technologies: ["React", "Java", "Spring", "Docker", "AWS", "Auth0"],
+    //     technologies: ["React", "Java", "Spring", "MongoDB", "Redis", "Docker", "AWS", "Auth0"],
     //     links: {
     //         github: "https://github.com/patricktrp/leetcode-clone",
     //         hosted: "https://leetcode.treppmann.dev"
