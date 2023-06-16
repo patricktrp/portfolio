@@ -3,6 +3,7 @@
   --background-secondary: #fff;
   --font-color-primary: #2d2e32;
   --font-color-secondary: #767676;
+  --box-shadow-rgba: rgba(45, 46, 50, 0.2);
 }
 
 [data-theme="dark"] {
@@ -10,6 +11,7 @@
   --background-secondary: #1f1f1f;
   --font-color-primary: #eee;
   --font-color-secondary: #ccc;
+  --box-shadow-rgba: rgba(238, 238, 238, 0.2);
 }
 
 body {

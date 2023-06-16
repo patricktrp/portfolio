@@ -23,7 +23,7 @@ function App() {
       <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}/>
       <Hero />
       <Experience />
-      <Projects />
+      <Projects isDarkMode={isDarkMode}/>
     </>
   );
 }
