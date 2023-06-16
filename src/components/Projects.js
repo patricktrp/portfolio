@@ -81,6 +81,8 @@ const Projects = (props) => {
                     return (
                         <Fade left={idx % 2 === 0} right={idx % 2 === 1} distance="30%">
                             <div className={styles["projects-card"]}>
+                                <div>
+
                                 <h1>{project.name[0]} <span className={styles["project-heading-highlight"]}>{project.name[1]}</span></h1>
                                 {project.description.map(desc => <p>{desc}</p>)}
 
@@ -91,12 +93,15 @@ const Projects = (props) => {
                                         <li><a target="_blank" rel="noreferrer" href={project.links.hosted}><HiOutlineExternalLink size="1.8em" title="view live demo" /></a></li>
                                     </ul>
                                 </div>
+                                </div>
 
-                                <div className={styles["project-tech"]}>
+                                <div>
+                                    <div className={styles["project-tech"]} >
                                     <p>{project.technologies.join(", ")}</p>
                                     <ul>
                                         {project.technologies.map(tech => <li>{ICON_MAPPING[tech]}</li>)}
                                     </ul>
+                                    </div>
                                 </div>
                             </div>
                         </Fade>

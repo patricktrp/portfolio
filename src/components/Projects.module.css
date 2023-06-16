@@ -32,6 +32,9 @@
     margin-bottom: 50px;
     margin-top: 50px;
     min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-heading-highlight {
@@ -103,17 +106,18 @@
 }
 
 .project-tech {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin-left: 25px;
-    margin-bottom: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .project-tech p {
     color: var(--font-color-secondary);
     font-family: "Mulish", sans-serif;
     max-width: 300px;
+    margin: 0;
 }
 
 .project-tech ul {
