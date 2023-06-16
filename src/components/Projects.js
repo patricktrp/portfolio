@@ -83,16 +83,16 @@ const Projects = (props) => {
                             <div className={styles["projects-card"]}>
                                 <div>
 
-                                <h1>{project.name[0]} <span className={styles["project-heading-highlight"]}>{project.name[1]}</span></h1>
-                                {project.description.map(desc => <p>{desc}</p>)}
+                                    <h1>{project.name[0]} <span className={styles["project-heading-highlight"]}>{project.name[1]}</span></h1>
+                                    {project.description.map(desc => <p>{desc}</p>)}
 
-                                <img alt="" src={props.isDarkMode ? project.img.dark : project.img.light} className={styles["project-demo-img"]} />
-                                <div className={styles["project-links"]}>
-                                    <ul>
-                                        <li><a target="_blank" rel="noreferrer" href={project.links.github}><FaGithub size="1.8em" title="view source code" /></a></li>
-                                        <li><a target="_blank" rel="noreferrer" href={project.links.hosted}><HiOutlineExternalLink size="1.8em" title="view live demo" /></a></li>
-                                    </ul>
-                                </div>
+                                    <img alt="" src={props.isDarkMode ? project.img.dark : project.img.light} className={styles["project-demo-img"]} />
+                                    <div className={styles["project-links"]}>
+                                        <ul>
+                                            <li><a target="_blank" rel="noreferrer" href={project.links.github}><FaGithub size="1.8em" title="view source code" /></a></li>
+                                            <li><a target="_blank" rel="noreferrer" href={project.links.hosted}><HiOutlineExternalLink size="1.8em" title="view live demo" /></a></li>
+                                        </ul>
+                                    </div>
                                 </div>
 
                                 <div>
