@@ -1,10 +1,15 @@
 .hero {
-    height: 93vh;
     background-color: var(--background-primary);
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+@media (min-width: 1400px) {
+    .hero {
+        height: 93vh;
+    }
+  }
 
 .hero-inner-layout {
     min-width: 60%;
