@@ -171,7 +171,6 @@
 .skills ul li {
     margin-right: 2rem;
     margin-bottom: 1rem;
-    /* flex: 1 0 25% */
 }
 
 .skills .logo-background {
@@ -185,6 +184,10 @@
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     font-size: 32px;
+}
+
+.highlight {
+    color: var(--highlight-color) !important;
 }
 
 

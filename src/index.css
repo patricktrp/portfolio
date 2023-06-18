@@ -4,6 +4,7 @@
   --font-color-primary: #2d2e32;
   --font-color-secondary: #767676;
   --box-shadow-rgba: rgba(45, 46, 50, 0.2);
+  --highlight-color: darksalmon;
 }
 
 [data-theme="dark"] {
@@ -12,9 +13,11 @@
   --font-color-primary: #eee;
   --font-color-secondary: #ccc;
   --box-shadow-rgba: rgba(238, 238, 238, 0.2);
+  --highlight-color: papayawhip;
 }
 
 body {
+  /* color:darksalmon */
   margin: 0;
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;

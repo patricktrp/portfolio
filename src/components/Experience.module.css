@@ -124,6 +124,11 @@
     color: var(--font-color-primary);
     font-family: 'Mulish', sans-serif;
  }
+
+ .company-link {
+   text-decoration: none;
+   color: var(--highlight-color);
+ }
  
  
  @media screen and (max-width: 768px) {

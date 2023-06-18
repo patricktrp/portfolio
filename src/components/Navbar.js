@@ -11,7 +11,7 @@ const Navbar = (props) => {
     return (
         <nav className={styles["navbar"]}>
             <div className={styles["navbar-inner"]}>
-                <span className={styles["navbar-inner-heading"]}>treppmann.dev</span>
+                <span className={styles["navbar-inner-heading"]} onClick={e => scroll(e, 'about')}>treppmann.dev</span>
                 <ul className={styles["navbar-inner-list"]}>
                     <li><a href="#about" onClick={e => scroll(e, 'about')}>About</a></li>
                     <li><a href="#experience" onClick={e => scroll(e, 'experience')}>Experience</a></li>
