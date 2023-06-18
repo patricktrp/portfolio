@@ -4,7 +4,7 @@
   --font-color-primary: #2d2e32;
   --font-color-secondary: #767676;
   --box-shadow-rgba: rgba(45, 46, 50, 0.2);
-  --highlight-color: darksalmon;
+  --highlight-color: cadetblue;
 }
 
 [data-theme="dark"] {
