@@ -20,7 +20,7 @@ const Hero = () => {
                                 <img alt="" src={Waving} />
                             </div>
                             {/* <p>I'm a computer science student and full stack developer based in Aachen, Germany. 📍</p> */}
-                            <p style={{ maxWidth: '750px', marginBottom: '0px'}}>I am a m.sc. computer science student at <span><a className={styles['highlight']} href="https://www.rwth-aachen.de/cms/~a/root/?lidx=1">RWTH Aachen</a></span> where I specialize in software engineering, distributed systems & artificial intelligence. </p>
+                            <p style={{ maxWidth: '750px', marginBottom: '0px'}}>I am a m.sc. computer science student at <span><a className={styles['highlight']} rel="noreferrer" target="_blank" href="https://www.rwth-aachen.de/cms/~a/root/?lidx=1">RWTH Aachen</a></span> where I specialize in software engineering, distributed systems & artificial intelligence. </p>
                             <p style={{ maxWidth: '750px' }}>I have great interest in full stack web development with a slight preference for backend technologies.</p>
                             <ul className={styles["hero-main-icons"]}>
                                 <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithubSquare title="view github"/></a></li>
