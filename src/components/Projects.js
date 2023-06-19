@@ -1,32 +1,12 @@
 import { Fade } from '@successtar/react-reveal';
-import { FaAws, FaGithub, FaJava, FaReact } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 import { HiOutlineExternalLink } from 'react-icons/hi';
-import { SiApachecassandra, SiAuth0, SiCss3, SiDocker, SiHtml5, SiJavascript, SiMongodb, SiPostgresql, SiRedis, SiSpring } from 'react-icons/si';
-import { TbBrandGolang } from 'react-icons/tb';
 // import Chess from '../assets/chess.patricktreppmann.com_.png';
 // import Leetcode from '../assets/leetcode-clone.png';
 import SavDark from '../assets/sav_dark.png';
 import SavLight from '../assets/sav_light.png';
 import styles from './Projects.module.css';
-
-const ICON_SIZE = "1.8em";
-
-const ICON_MAPPING = {
-    Java: <FaJava size={ICON_SIZE} />,
-    Spring: <SiSpring size={ICON_SIZE} />,
-    React: <FaReact size={ICON_SIZE} />,
-    AWS: <FaAws size={ICON_SIZE} />,
-    HTML: <SiHtml5 size={ICON_SIZE} />,
-    CSS: <SiCss3 size={ICON_SIZE} />,
-    JavaScript: <SiJavascript size={ICON_SIZE} />,
-    Auth0: <SiAuth0 size={ICON_SIZE} />,
-    Docker: <SiDocker size={ICON_SIZE} />,
-    Redis: <SiRedis size={ICON_SIZE} />,
-    PostgreSQL: <SiPostgresql size={ICON_SIZE} />,
-    Cassandra: <SiApachecassandra size={ICON_SIZE} />,
-    MongoDB: <SiMongodb size={ICON_SIZE} />,
-    Go: <TbBrandGolang size={ICON_SIZE} />
-}
+import TechIcon from './TechIcon';
 
 const PROJECTS = [
     {
@@ -53,20 +33,27 @@ const PROJECTS = [
     //         github: "https://github.com/patricktrp/chess",
     //         hosted: "https://chess.treppmann.dev"
     //     },
-    //     img: Chess
+    //     img: {
+    //         light: Chess,
+    //         dark: Chess
+    //     }
     // },
     // {
     //     name: ["Leetcode", "Clone"],
     //     description: [
     //         "This is a full-stack clone of the popular website Leetcode!",
-    //         "It includes Authentication, Authorization and a Remote Code Execution Engine!"
+    //         "It features 20 questions that can be worked on in JavaScript or Golang.",
+    //         "The project includes Authentication, Authorization, a Remote Code Execution Engine and Payment Integration with Stripe!"            
     //     ],
-    //     technologies: ["React", "Java", "Spring", "MongoDB", "Redis", "Docker", "AWS", "Auth0"],
+    //     technologies: ["React", "Java", "Spring", "MongoDB", "Redis", "Docker", "AWS", "Auth0", "Stripe", "NodeJS"],
     //     links: {
     //         github: "https://github.com/patricktrp/leetcode-clone",
     //         hosted: "https://leetcode.treppmann.dev"
     //     },
-    //     img: Leetcode
+    //     img: {
+    //         light: Leetcode,
+    //         dark: Leetcode
+    //     }
     // }
 ]
 
@@ -99,7 +86,7 @@ const Projects = (props) => {
                                     <div className={styles["project-tech"]} >
                                     <p>{project.technologies.join(", ")}</p>
                                     <ul>
-                                        {project.technologies.map(tech => <li>{ICON_MAPPING[tech]}</li>)}
+                                        {project.technologies.map(tech => <li><TechIcon tech={tech}/></li>)}
                                     </ul>
                                     </div>
                                 </div>
