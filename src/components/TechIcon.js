@@ -1,5 +1,5 @@
 import { FaAws, FaJava, FaNodeJs, FaReact, FaStripe } from "react-icons/fa";
-import { SiApachecassandra, SiAuth0, SiCss3, SiDocker, SiHtml5, SiJavascript, SiMongodb, SiPostgresql, SiRedis, SiSpring } from "react-icons/si";
+import { SiApachecassandra, SiAuth0, SiCss3, SiDocker, SiFlask, SiHtml5, SiJavascript, SiMongodb, SiOpenai, SiPostgresql, SiPython, SiRedis, SiSpring } from "react-icons/si";
 import { TbBrandGolang } from 'react-icons/tb';
 
 const ICON_SIZE = "1.8em";
@@ -23,7 +23,10 @@ const TechIcon = (props) => {
         mongodb: <SiMongodb size={size} />,
         go: <TbBrandGolang size={size} />,
         stripe: <FaStripe size={size}/>,
-        nodejs: <FaNodeJs size={size} />
+        nodejs: <FaNodeJs size={size} />,
+        openai: <SiOpenai size={size} />,
+        python: <SiPython size={size} />,
+        flask: <SiFlask size={size} />
     }
 
     return (
