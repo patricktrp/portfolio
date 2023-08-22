@@ -1,0 +1,19 @@
+.contact {
+    background-color: var(--background-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+.blu {
+    color: var(--font-color-secondary);
+}
+
+.section-heading {
+    text-align: center;
+    font-weight: 300;
+    color: var(--font-color-primary);
+    font-size: 3rem;
+}

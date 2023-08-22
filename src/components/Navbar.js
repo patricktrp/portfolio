@@ -16,6 +16,7 @@ const Navbar = (props) => {
                     <li><a href="#about" onClick={e => scroll(e, 'about')}>About</a></li>
                     <li><a href="#experience" onClick={e => scroll(e, 'experience')}>Experience</a></li>
                     <li><a href="#projects" onClick={e => scroll(e, 'projects')}>Projects</a></li>
+                    <li><a href="#contact" onClick={e => scroll(e, 'contact')}>Contact</a></li>
                     <li style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>{!props.isDarkMode ? <BsFillMoonFill onClick={props.toggleDarkMode} /> : <BsFillSunFill onClick={props.toggleDarkMode} />}</li>
                 </ul>
             </div>
