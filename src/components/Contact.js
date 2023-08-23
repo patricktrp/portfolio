@@ -14,6 +14,10 @@ const Contact = () => {
                 <MdMail size="1.4em" style={{marginRight: '15px'}}/>
                 <span className={styles['blu']}>patrick.treppmann97@gmail.com</span>
             </div>
+            {/* <div style={{display: 'flex', width: '420px',marginBottom: '5px', alignItems: 'center'}} >
+                <MdSmartphone size="1.4em" style={{marginRight: '15px'}}/>
+                <span className={styles['blu']}>phone number</span>
+            </div> */}
         </section >
     );
 }
