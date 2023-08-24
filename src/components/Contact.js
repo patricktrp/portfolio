@@ -13,7 +13,7 @@ const Contact = () => {
                 </div>
                 <div style={{display: 'flex',marginBottom: '5px', alignItems: 'center'}} >
                     <MdMail size="1.4em" style={{marginRight: '15px'}}/>
-                    <a  style={{textDecoration: 'none'}} target="_blank" rel="noreferrer" href="mailto:patrick@treppmann.dev" className={styles['blu']}>patrick.treppmann97@gmail.com</a>
+                    <a  style={{textDecoration: 'none'}} target="_blank" rel="noreferrer" href="mailto:patrick@treppmann.dev" className={styles['blu']}>patrick@treppmann.dev</a>
                 </div>
             </div>
         </section >

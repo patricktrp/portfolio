@@ -2,7 +2,7 @@ import { Fade } from "@successtar/react-reveal";
 import { FaAws, FaGithubSquare, FaJava, FaLinkedin } from 'react-icons/fa';
 import { IoIosPaper } from 'react-icons/io';
 import { MdEmail } from 'react-icons/md';
-import { SiDocker, SiJavascript, SiMedium, SiMongodb, SiPostgresql, SiPython, SiReact, SiSpring } from 'react-icons/si';
+import { SiDocker, SiJavascript, SiMongodb, SiPostgresql, SiPython, SiReact, SiSpring } from 'react-icons/si';
 import CV from '../assets/cv.pdf';
 import Waving from '../assets/waving.png';
 import styles from './Hero.module.css';
@@ -27,7 +27,7 @@ const Hero = () => {
                                 <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrick-treppmann/"><FaLinkedin title="view linkedin"/></a></li>
                                 <li><a target="_blank" rel="noreferrer" href={CV} download="CV_PatrickTreppmann"><IoIosPaper title="download resume"/></a></li>
                                 <li><a target="_blank" rel="noreferrer" href="mailto:patrick@treppmann.dev"><MdEmail title="send a mail"/></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="https://medium.com/@patricktrp"><SiMedium title="go to my blog"/></a></li>
+                                {/* <li><a target="_blank" rel="noreferrer" href="https://medium.com/@patricktrp"><SiMedium title="go to my blog"/></a></li> */}
                             </ul>
                         </div>
                         <div className={styles["hero-main-img-wrapper"]}>
