@@ -9,7 +9,7 @@ const Contact = () => {
             <div style={{display: 'flex', flexDirection: 'column'}}>
                 <div style={{display: 'flex',marginBottom: '5px', alignItems: 'center'}}>
                     <FaLinkedin size="1.4em" style={{marginRight: '15px'}}/>
-                    <a  style={{textDecoration: 'none'}} target="_blank" rel="noreferrer" href="https://linkedin.com/patrick-treppmann" className={styles['blu']}>linkedin.com/in/patrick-treppmann</a>
+                    <a  style={{textDecoration: 'none'}} target="_blank" rel="noreferrer" href="https://linkedin.com/in/patrick-treppmann" className={styles['blu']}>linkedin.com/patrick-treppmann</a>
                 </div>
                 <div style={{display: 'flex',marginBottom: '5px', alignItems: 'center'}} >
                     <MdMail size="1.4em" style={{marginRight: '15px'}}/>
