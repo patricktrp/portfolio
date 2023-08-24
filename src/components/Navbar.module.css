@@ -51,8 +51,11 @@
 
 .navbar-inner-list li a {
     color: var(--font-color-primary);
-    text-decoration: none;
-    
+    text-decoration: none;    
+}
+
+.navbar-inner-list li a:hover{
+    color: var(--font-color-secondary);
 }
 
 /* .responsive-navbar-icon {
