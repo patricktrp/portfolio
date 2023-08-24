@@ -4,20 +4,18 @@ import styles from './Contact.module.css';
 
 const Contact = () => {
     return (
-        <section id="contact" className={styles['contact']}>
+        <section id="contact" className={styles['contact']} >
             <h1 className={styles["section-heading"]}>Contact</h1>
-            <div style={{display: 'flex', width: '420px',marginBottom: '5px', alignItems: 'center'}}>
-                <FaLinkedin size="1.4em" style={{marginRight: '15px'}}/>
-                <span className={styles['blu']}>linkedin.com/in/patrick-treppmann</span>
+            <div style={{display: 'flex', flexDirection: 'column'}}>
+                <div style={{display: 'flex',marginBottom: '5px', alignItems: 'center'}}>
+                    <FaLinkedin size="1.4em" style={{marginRight: '15px'}}/>
+                    <a  style={{textDecoration: 'none'}} target="_blank" rel="noreferrer" href="https://linkedin.com/in/patrick-treppmann" className={styles['blu']}>linkedin.com/in/patrick-treppmann</a>
+                </div>
+                <div style={{display: 'flex',marginBottom: '5px', alignItems: 'center'}} >
+                    <MdMail size="1.4em" style={{marginRight: '15px'}}/>
+                    <a  style={{textDecoration: 'none'}} target="_blank" rel="noreferrer" href="mailto:patrick@treppmann.dev" className={styles['blu']}>patrick.treppmann97@gmail.com</a>
+                </div>
             </div>
-            <div style={{display: 'flex', width: '420px',marginBottom: '5px', alignItems: 'center'}} >
-                <MdMail size="1.4em" style={{marginRight: '15px'}}/>
-                <span className={styles['blu']}>patrick.treppmann97@gmail.com</span>
-            </div>
-            {/* <div style={{display: 'flex', width: '420px',marginBottom: '5px', alignItems: 'center'}} >
-                <MdSmartphone size="1.4em" style={{marginRight: '15px'}}/>
-                <span className={styles['blu']}>phone number</span>
-            </div> */}
         </section >
     );
 }
