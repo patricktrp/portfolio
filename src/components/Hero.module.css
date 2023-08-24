@@ -107,6 +107,10 @@
     color: var(--font-color-primary);
 }
 
+.hero-main-icons a:hover{
+    color: var(--font-color-secondary);
+}
+
 .hero-main-img-wrapper {
     display: flex;
     align-items: center;

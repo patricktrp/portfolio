@@ -17,3 +17,7 @@
     color: var(--font-color-primary);
     font-size: 3rem;
 }
+
+.contact a:hover {
+    color: var(--font-color-primary);
+}
