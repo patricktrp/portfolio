@@ -12,7 +12,7 @@ const Hero = () => {
 
         <section className={styles["hero"]} id="about">
             <div className={styles["hero-inner-layout"]}>
-                <Fade bottom distance="20%" >
+                <Fade bottom distance="5%" >
                     <div className={styles["hero-main"]}>
                         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
                             <div className={styles["hero-main-heading"]}>
@@ -20,13 +20,13 @@ const Hero = () => {
                                 <img alt="" src={Waving} />
                             </div>
                             {/* <p>I'm a computer science student and full stack developer based in Aachen, Germany. 📍</p> */}
-                            <p style={{ maxWidth: '85%', marginBottom: '0px'}}>I am a m.sc. computer science student at <a className={styles['highlight']} rel="noreferrer" target="_blank" href="https://www.rwth-aachen.de/cms/~a/root/?lidx=1">RWTH Aachen</a> where I specialize in software engineering, distributed systems & artificial intelligence. </p>
+                            <p style={{ maxWidth: '85%', marginBottom: '0px' }}>I am a m.sc. computer science student at <a className={styles['highlight']} rel="noreferrer" target="_blank" href="https://www.rwth-aachen.de/cms/~a/root/?lidx=1">RWTH Aachen</a> where I specialize in software engineering, distributed systems & artificial intelligence. </p>
                             <p style={{ maxWidth: '85%' }}>I have great interest in full stack web development with a slight preference for backend technologies.</p>
                             <ul className={styles["hero-main-icons"]}>
-                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithubSquare title="view github"/></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrick-treppmann/"><FaLinkedin title="view linkedin"/></a></li>
-                                <li><a target="_blank" rel="noreferrer" href={CV} download="CV_PatrickTreppmann"><IoIosPaper title="download resume"/></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="mailto:patrick@treppmann.dev"><MdEmail title="send a mail"/></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://github.com/patricktrp"><FaGithubSquare title="view github" /></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/patrick-treppmann/"><FaLinkedin title="view linkedin" /></a></li>
+                                <li><a target="_blank" rel="noreferrer" href={CV} download="CV_PatrickTreppmann"><IoIosPaper title="download resume" /></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="mailto:patrick@treppmann.dev"><MdEmail title="send a mail" /></a></li>
                                 {/* <li><a target="_blank" rel="noreferrer" href="https://medium.com/@patricktrp"><SiMedium title="go to my blog"/></a></li> */}
                             </ul>
                         </div>
