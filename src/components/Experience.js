@@ -1,5 +1,5 @@
 import { Fade } from "@successtar/react-reveal";
-import { SiC, SiClion, SiDocker, SiPowershell, SiPython, SiReact, SiSpring, SiJavascript, SiMongodb } from 'react-icons/si';
+import { SiC, SiClion, SiDocker, SiPowershell, SiPython, SiReact, SiSpring, SiJavascript } from 'react-icons/si';
 import styles from './Experience.module.css';
 import { FaAws, FaJava } from 'react-icons/fa';
 
@@ -53,12 +53,13 @@ const Experience = () => {
                                     <li>achieved the automated analysis of 200.000+ vehicles each month by implementing a machine learning pipeline on AWS</li>
                                 </ul>
                                 <ul style={{ listStyle: 'none', display: 'flex', padding: '0px', }}>
-                                    <li style={{ marginRight: '8px' }}><SiPython size={26} /></li>
+                                    <li style={{ marginRight: '8px' }}><SiJavaScript size={30} /></li>
+                                    <li style={{ marginRight: '8px' }}><SiReact size={30} /></li>
+                                    <li style={{ marginRight: '8px' }}><FaJava size={30} /></li>
+                                    <li style={{ marginRight: '8px' }}><SiSpring size={30} /></li>
                                     <li style={{ marginRight: '8px' }}><SiDocker size={30} /></li>
                                     <li style={{ marginRight: '8px' }}><FaAws size={30} /></li>
-                                    <li style={{ marginRight: '8px' }}><SiReact size={30} /></li>
-                                    <li style={{ marginRight: '8px' }}><SiSpring size={30} /></li>
-                                    <li style={{ marginRight: '8px' }}><FaJava size={30} /></li>
+                                    <li style={{ marginRight: '8px' }}><SiPython size={26} /></li>
                                 </ul>
                             </div>
                         </Fade>
