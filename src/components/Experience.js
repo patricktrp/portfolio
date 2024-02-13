@@ -1,7 +1,7 @@
 import { Fade } from "@successtar/react-reveal";
-import { FaAws } from 'react-icons/fa';
-import { SiC, SiClion, SiDocker, SiPowershell, SiPython, SiReact, SiSpring, SiJava } from 'react-icons/si';
+import { SiC, SiClion, SiDocker, SiPowershell, SiPython, SiReact, SiSpring, SiJavascript, SiMongodb } from 'react-icons/si';
 import styles from './Experience.module.css';
+import { FaAws, FaJava } from 'react-icons/fa';
 
 // const EXPERIENCES = [
 //     {
@@ -58,7 +58,7 @@ const Experience = () => {
                                     <li style={{ marginRight: '8px' }}><FaAws size={30} /></li>
                                     <li style={{ marginRight: '8px' }}><SiReact size={30} /></li>
                                     <li style={{ marginRight: '8px' }}><SiSpring size={30} /></li>
-                                    <li style={{ marginRight: '8px' }}><SiJava size={30} /></li>
+                                    <li style={{ marginRight: '8px' }}><FaJava size={30} /></li>
                                 </ul>
                             </div>
                         </Fade>
