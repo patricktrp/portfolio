@@ -53,7 +53,7 @@ const Experience = () => {
                                     <li>achieved the automated analysis of 200.000+ vehicles each month by implementing a machine learning pipeline on AWS</li>
                                 </ul>
                                 <ul style={{ listStyle: 'none', display: 'flex', padding: '0px', }}>
-                                    <li style={{ marginRight: '8px' }}><SiJavaScript size={30} /></li>
+                                    <li style={{ marginRight: '8px' }}><SiJavascript size={30} /></li>
                                     <li style={{ marginRight: '8px' }}><SiReact size={30} /></li>
                                     <li style={{ marginRight: '8px' }}><FaJava size={30} /></li>
                                     <li style={{ marginRight: '8px' }}><SiSpring size={30} /></li>
